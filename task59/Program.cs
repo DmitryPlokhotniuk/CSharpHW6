@@ -30,6 +30,42 @@ int[,] FillArray (int x, int y)
     return array;
 }
 
+void PrintArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i, j] + " ");
+        }
+        Console.WriteLine();
+    }
+}
 
-int[,] array1 = FillArray(x, y);
-int[,] array2 = FillArray(x, y);
+int[] MinElement (int[,] array)
+{
+    int tmp = array[0, 0];
+    int[] minElement = new int[2];
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            if (array[i, j] < tmp)
+            {
+                minElement[0] = i;
+                minElement[1] = j;
+                tmp = array[i, j];
+            }
+        }
+    }
+    return minElement;
+}
+
+
+
+
+int[,] array = FillArray(x, y);
+
+PrintArray(array);
+
+Console.WriteLine($"Адрес минимального элемента: {string.Join(" ", MinElement(array))}");

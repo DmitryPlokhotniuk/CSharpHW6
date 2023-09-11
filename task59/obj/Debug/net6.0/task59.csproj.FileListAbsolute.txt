@@ -1,0 +1,15 @@
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\bin\Debug\net6.0\task59.exe
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\bin\Debug\net6.0\task59.deps.json
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\bin\Debug\net6.0\task59.runtimeconfig.json
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\bin\Debug\net6.0\task59.dll
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\bin\Debug\net6.0\task59.pdb
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\task59.csproj.AssemblyReference.cache
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\task59.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\task59.AssemblyInfoInputs.cache
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\task59.AssemblyInfo.cs
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\task59.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\task59.dll
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\refint\task59.dll
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\task59.pdb
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\task59.genruntimeconfig.cache
+C:\Users\Администратор\Documents\Питон\GeekBrains\CSharpHW6\task59\obj\Debug\net6.0\ref\task59.dll
