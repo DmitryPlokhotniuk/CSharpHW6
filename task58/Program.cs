@@ -17,7 +17,7 @@ int[,] FillArray (int x, int y)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(1, 10);
+            array[i, j] = new Random().Next(1, 5);
             Console.Write(array[i, j] + " ");
         }
         Console.WriteLine();
@@ -26,7 +26,7 @@ int[,] FillArray (int x, int y)
     return array;
 }
 
-int[,] MultiplyMatrix(int[,] matrix1, int[,] matrix2) // Предназначен только для матриц одинакового размера
+int[,] MultiplyMatrix(int[,] matrix1, int[,] matrix2) // Работает только с матрицами одинаковых размеров
 {
     int[,] multiplyArray = new int[matrix2.GetLength(1), matrix1.GetLength(0)];
     for (int i = 0; i < matrix1.GetLength(0); ++i)
