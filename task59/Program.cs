@@ -61,11 +61,35 @@ int[] MinElement (int[,] array)
     return minElement;
 }
 
+int[,] DeleteMin (int[,] array, int[] minElement)
+{
+    int[,] newArray = new int[array.GetLength(0) - 1, array.GetLength(1) - 1];
+    int k = 0;
+    int n = 0;
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            if (i != minElement[0] && j != minElement[1])
+            {
+                newArray[k, n] = array[i, j];
+                n++;
+            }
+        }
+        if (i != minElement[0])
+        {
+            k++;
+        }
+        n = 0;
+    }
+    return newArray;
+}
+
 
 
 
 int[,] array = FillArray(x, y);
-
-PrintArray(array);
-
+int[] minElement = MinElement(array);
 Console.WriteLine($"Адрес минимального элемента: {string.Join(" ", MinElement(array))}");
+int [,] newArray = DeleteMin(array, minElement);
+PrintArray(newArray);
